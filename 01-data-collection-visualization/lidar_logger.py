@@ -116,7 +116,7 @@ def print_product_information(port):
 def set_update_rate(port, value):
     if value < 1 or value > 12:
         raise Exception('Invalid update rate value.')
-    execute_command(port, 66, 1, [12])
+    execute_command(port, 66, 1, [1])
 
 def set_distance_output_with_yaw(port):
     # first return + yaw angle
