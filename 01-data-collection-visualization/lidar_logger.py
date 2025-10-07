@@ -177,7 +177,7 @@ with open("sf45b_log.csv", "w", newline="") as f:
             else:
                 print("No valid reading.")
             
-            time.sleep(0.05)  # 50 ms delay
+            #time.sleep(0.05)  # 50 ms delay
     except KeyboardInterrupt:
         print("Logging stopped.")
         set_distance_stream_enable(sensor_port, False)
