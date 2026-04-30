@@ -1,4 +1,4 @@
-# SF45B LiDAR AI & ML Projects 🚀
+LiDAR-Based Perception and Machine Learning for Autonomous Obstacle Detection (SF45/B Dataset)
 
 This repository contains a series of AI & Machine Learning projects using the **LightWare SF45/B LiDAR sensor**.  
 The goal is to explore **data collection, processing, ML classification, sensor fusion, anomaly detection, and reinforcement learning** for robotics and embedded AI applications.  
